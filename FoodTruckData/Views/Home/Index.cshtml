@@ -1,0 +1,44 @@
+﻿<h2>Hello Let's start</h2>
+<p>Here we can see the availables food trucks in the specific date and time</p>
+
+<div class="contentFilter">
+    <div>
+        <label>date</label>
+        
+        <select class="form-control" id="dayow">
+            <option value="">Select day</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Time</label>
+        <input type="time" id="stime" class="form-control" name="name" value="" />
+    </div>
+    <div>
+        <button class="btn btn-primary gofilter">Go</button>
+    </div>
+</div>
+<div class="contentData">
+    <h2 class="totalft"></h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>               
+            </tr>
+        </thead>
+        <tbody class="bodytable">
+            @*<tr>                
+                <td>Mark</td>
+                <td>Otto</td>                
+            </tr>*@          
+        </tbody>
+    </table>
+</div>
